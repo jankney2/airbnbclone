@@ -5,7 +5,7 @@ import Explore from './screens/Explore';
 import Inbox from './screens/Inbox'
 import Saved from './screens/Saved'
 import Trips from './screens/Trips'
-import Icon from 'react-native-vector-icons/EvilIcons'
+import Icon from 'react-native-vector-icons/Ionicons'
 
 
 const AppNav= createBottomTabNavigator({
@@ -14,7 +14,7 @@ const AppNav= createBottomTabNavigator({
     navigationOptions: {
       tabBarLabel:'EXPLORE',
       tabBarIcon:({tintColor})=>{
-        <Icon name='comment' color={'red'} size={24}/>
+        <Icon name='ios-add' color={'red'} size={24}/>
       }
     }
   }, 
